@@ -10,15 +10,20 @@ const links = [
   { href: "/billing", labelKey: "billing" },
 ];
 
-export default function NavLinks() {
+export default function NavLinks({
+  mobile,
+  onNavigate,
+}: {
+  mobile?: boolean;
+  onNavigate?: () => void;
+}) {
   const pathname = usePathname();
-  // Extract locale prefix from pathname (e.g. /es/settings -> /es)
   const segments = pathname.split("/").filter(Boolean);
   const localePrefix = segments.length > 0 ? `/${segments[0]}` : "";
   const currentPath = "/" + segments.slice(1).join("/");
 
   return (
-    <nav className="flex items-center gap-1">
+    <nav className={mobile ? "flex flex-col gap-1" : "flex items-center gap-1"}>
       {links.map((link) => {
         const isActive =
           link.href === "/"
@@ -28,6 +33,7 @@ export default function NavLinks() {
           <Link
             key={link.href}
             href={`${localePrefix}${link.href === "/" ? "" : link.href}`}
+            onClick={onNavigate}
             className={`px-3 py-1.5 text-sm rounded-md transition-colors ${
               isActive
                 ? "bg-neutral-800 text-neutral-100"

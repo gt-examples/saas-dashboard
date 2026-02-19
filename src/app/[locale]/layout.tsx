@@ -31,7 +31,7 @@ export default async function RootLayout({
         <GTProvider>
           <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
             <Navbar />
-            <main className="max-w-5xl mx-auto px-6 py-10">{children}</main>
+            <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10">{children}</main>
           </div>
         </GTProvider>
       </body>

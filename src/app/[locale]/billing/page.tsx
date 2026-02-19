@@ -156,19 +156,19 @@ export default async function BillingPage() {
           {invoices.map((inv) => (
             <div
               key={inv.id}
-              className="px-5 py-3.5 flex items-center justify-between"
+              className="px-5 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-2"
             >
-              <div className="flex items-center gap-4">
-                <span className="text-sm font-mono text-neutral-300">
+              <div className="flex items-center gap-4 min-w-0">
+                <span className="text-sm font-mono text-neutral-300 truncate">
                   {inv.id}
                 </span>
-                <span className="text-xs text-neutral-500">
+                <span className="text-xs text-neutral-500 shrink-0">
                   <DateTime options={{ dateStyle: "medium" }}>
                     {inv.date}
                   </DateTime>
                 </span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 shrink-0">
                 <span className="text-sm text-neutral-200">
                   <Currency currency="USD">{inv.amount}</Currency>
                 </span>
