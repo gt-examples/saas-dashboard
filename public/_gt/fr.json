@@ -1,0 +1,509 @@
+{
+  "1a0ead31bdd1e859": {
+    "c": "+8,1 % par rapport au mois dernier",
+    "i": 1,
+    "t": "p"
+  },
+  "24162a8d2a81aebd": {
+    "c": "-2,3 % par rapport au mois dernier",
+    "i": 1,
+    "t": "p"
+  },
+  "24c395c68b57fdf4": {
+    "c": [
+      {
+        "c": "Facturation",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Gérez votre abonnement et consultez l'historique de vos factures.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "29f0824614831f53": "Vue d'ensemble",
+  "2d8c0219a2bad80b": "Remboursé",
+  "320627166d073ffb": {
+    "c": "Taux de conversion",
+    "i": 1,
+    "t": "p"
+  },
+  "36122c88f6e7ff7a": "SaaS Dashboard",
+  "3b911d46599599f4": {
+    "c": {
+      "c": "Historique des factures",
+      "i": 2,
+      "t": "h3"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "41af85b18b3c0aad": [
+    {
+      "c": {
+        "c": "Zone dangereuse",
+        "i": 2,
+        "t": "h3"
+      },
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Supprimer le compte",
+              "i": 5,
+              "t": "p"
+            },
+            {
+              "c": "Supprimez définitivement votre compte et toutes les données associées. Cette action est irréversible.",
+              "i": 6,
+              "t": "p"
+            }
+          ],
+          "i": 4,
+          "t": "div"
+        },
+        {
+          "c": "Supprimer le compte",
+          "i": 7,
+          "t": "button"
+        }
+      ],
+      "i": 3,
+      "t": "div"
+    }
+  ],
+  "430ae6c940f3addb": "Payé",
+  "440dc71106014ff4": {
+    "c": [
+      {
+        "c": "Paramètres",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Gérez vos préférences de compte et vos paramètres de notification.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "446a58a1b35d82e3": {
+    "c": {
+      "c": "Préférences de notification",
+      "i": 2,
+      "t": "h3"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "4e6df103a6fac6a9": [
+    {
+      "c": {
+        "c": "Forfait actuel",
+        "i": 2,
+        "t": "h3"
+      },
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "Pro",
+              "i": 5,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "i": 7,
+                  "k": "_gt_cost_7",
+                  "v": "c"
+                },
+                " par mois"
+              ],
+              "i": 6,
+              "t": "span"
+            }
+          ],
+          "i": 4,
+          "t": "div"
+        },
+        {
+          "c": [
+            "Prochaine date de facturation : ",
+            {
+              "i": 9,
+              "k": "_gt_value_9",
+              "v": "v"
+            }
+          ],
+          "i": 8,
+          "t": "p"
+        }
+      ],
+      "i": 3,
+      "t": "div"
+    }
+  ],
+  "5426ac306a56ca7e": {
+    "c": "+12,5 % par rapport au mois dernier",
+    "i": 1,
+    "t": "p"
+  },
+  "578354a8606964a2": {
+    "c": "Utilisateurs actifs",
+    "i": 1,
+    "t": "p"
+  },
+  "5a84002614d400d4": {
+    "c": [
+      {
+        "c": "Notifications de facturation",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Recevoir les factures et les rappels de paiement",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "5dffe7a0e3f5c6c4": "a été renouvelé",
+  "600433e7972a7e75": "Facturation",
+  "657421864c62a8aa": [
+    {
+      "c": {
+        "c": "Informations du profil",
+        "i": 2,
+        "t": "h3"
+      },
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "Nom complet",
+                "i": 6,
+                "t": "label"
+              },
+              {
+                "c": {
+                  "i": 8,
+                  "k": "_gt_value_8",
+                  "v": "v"
+                },
+                "i": 7,
+                "t": "div"
+              }
+            ],
+            "i": 5,
+            "t": "div"
+          },
+          {
+            "c": [
+              {
+                "c": "Adresse e-mail",
+                "i": 10,
+                "t": "label"
+              },
+              {
+                "c": {
+                  "i": 12,
+                  "k": "_gt_value_12",
+                  "v": "v"
+                },
+                "i": 11,
+                "t": "div"
+              }
+            ],
+            "i": 9,
+            "t": "div"
+          },
+          {
+            "c": [
+              {
+                "c": "Rôle",
+                "i": 14,
+                "t": "label"
+              },
+              {
+                "c": "Administrateur",
+                "i": 15,
+                "t": "div"
+              }
+            ],
+            "i": 13,
+            "t": "div"
+          },
+          {
+            "c": [
+              {
+                "c": "Fuseau horaire",
+                "i": 17,
+                "t": "label"
+              },
+              {
+                "c": {
+                  "i": 19,
+                  "k": "_gt_value_19",
+                  "v": "v"
+                },
+                "i": 18,
+                "t": "div"
+              }
+            ],
+            "i": 16,
+            "t": "div"
+          }
+        ],
+        "i": 4,
+        "t": "div"
+      },
+      "i": 3,
+      "t": "div"
+    }
+  ],
+  "68e09a395d8f0f2d": {
+    "c": [
+      {
+        "c": "Mises à jour par e-mail",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Recevoir des mises à jour concernant l'activité de votre compte",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "7487d8ffe0025007": {
+    "c": {
+      "c": "Activité récente",
+      "i": 2,
+      "t": "h3"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "74f44e96bcfa78fc": {
+    "c": [
+      {
+        "c": "Alertes de sécurité",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Recevez des notifications sur les événements de sécurité",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "77248eb72f047600": "s’est abonné à",
+  "8306a293a0675828": {
+    "c": "Commandes totales",
+    "i": 1,
+    "t": "p"
+  },
+  "861f27cb851f73b6": {
+    "c": [
+      {
+        "c": "Tableau de bord",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Un résumé de vos indicateurs commerciaux et de votre activité récente.",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "8a135e63b19b5636": "Paramètres",
+  "8ea297b7230604ed": {
+    "c": "Revenus mensuels",
+    "i": 1,
+    "t": "p"
+  },
+  "9bfad5921f99da8d": "a été rétrogradé au",
+  "9c8b93dd80cb9dd2": [
+    {
+      "c": "Entreprise",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 3,
+          "k": "_gt_cost_3",
+          "v": "c"
+        },
+        {
+          "c": [
+            " / mois"
+          ],
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Pour les grandes organisations ayant des besoins personnalisés et un support dédié.",
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": "Passer à ce forfait",
+      "i": 6,
+      "t": "button"
+    }
+  ],
+  "a417dd090fce83c4": {
+    "c": [
+      {
+        "c": "Nouveautés produit",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Découvrez les nouvelles fonctionnalités et améliorations",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a984b03b4c20f799": {
+    "c": [
+      {
+        "c": "Récapitulatif hebdomadaire",
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": "Résumé hebdomadaire des métriques de votre compte",
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "ae1da804d82a4359": {
+    "c": "+0,8 % par rapport au mois dernier",
+    "i": 1,
+    "t": "p"
+  },
+  "b12269ee507de011": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      " ",
+      {
+        "i": 3,
+        "k": "_gt_value_3",
+        "v": "v"
+      },
+      " ",
+      {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      }
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "c795541b65aa6077": [
+    {
+      "c": "Débutant",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": "Gratuit",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Pour les personnes qui débutent avec les fonctionnalités de base.",
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": "Passer à ce forfait",
+      "i": 4,
+      "t": "button"
+    }
+  ],
+  "d745469b3f135b7c": "a été mis à niveau vers",
+  "fec12f08021515c1": [
+    {
+      "c": "Pro",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "i": 3,
+          "k": "_gt_cost_3",
+          "v": "c"
+        },
+        {
+          "c": [
+            " / mois"
+          ],
+          "i": 4,
+          "t": "span"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Pour les équipes en croissance qui ont besoin d'outils avancés et d'intégrations.",
+      "i": 5,
+      "t": "p"
+    },
+    {
+      "c": "Forfait actuel",
+      "i": 6,
+      "t": "button"
+    }
+  ]
+}
