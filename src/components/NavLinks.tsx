@@ -18,8 +18,8 @@ export default function NavLinks({
   onNavigate?: () => void;
 }) {
   const pathname = usePathname();
+  // Strip locale prefix to determine active page
   const segments = pathname.split("/").filter(Boolean);
-  const localePrefix = segments.length > 0 ? `/${segments[0]}` : "";
   const currentPath = "/" + segments.slice(1).join("/");
 
   return (
@@ -32,7 +32,7 @@ export default function NavLinks({
         return (
           <Link
             key={link.href}
-            href={`${localePrefix}${link.href === "/" ? "" : link.href}`}
+            href={link.href}
             onClick={onNavigate}
             className={`px-3 py-1.5 text-sm rounded-md transition-colors ${
               isActive
