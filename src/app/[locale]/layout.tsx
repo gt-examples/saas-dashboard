@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { GTProvider } from "gt-next";
-import { getLocaleDirection } from "gt-next/server";
+import { getLocaleDirection , getGT } from "gt-next/server";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -10,11 +10,47 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "SaaS Dashboard | GT",
-  description:
-    "Multi-page SaaS dashboard demonstrating locale-aware data formatting with General Translation",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const gt = await getGT();
+
+  const title = gt("SaaS Dashboard | General Translation");
+  const description = gt(
+    "A multi-page SaaS dashboard with locale-aware data formatting and RTL support."
+  );
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      locale,
+      type: "website",
+      siteName: "General Translation",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: "https://saas-dashboard.generaltranslation.dev",
+      languages: {
+        en: "/en",
+        es: "/es",
+        ja: "/ja",
+        ar: "/ar",
+        fr: "/fr",
+        zh: "/zh",
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
