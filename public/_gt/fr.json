@@ -7,7 +7,7 @@
   "1e8c084fb78e8cde": [
     {
       "c": {
-        "c": "Méthode de paiement",
+        "c": "Moyen de paiement",
         "i": 2,
         "t": "h3"
       },
@@ -84,7 +84,7 @@
         "t": "h2"
       },
       {
-        "c": "Gérez votre abonnement et consultez l'historique de vos factures.",
+        "c": "Gérez votre abonnement et consultez l'historique des factures.",
         "i": 3,
         "t": "p"
       }
@@ -94,6 +94,21 @@
   },
   "29f0824614831f53": "Vue d'ensemble",
   "2d8c0219a2bad80b": "Remboursé",
+  "2f18466914eb64c9": [
+    "Ceci est un exemple d'application créée avec ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". Voir le ",
+    {
+      "c": "code source sur GitHub",
+      "i": 2,
+      "t": "a"
+    },
+    "."
+  ],
   "320627166d073ffb": {
     "c": "Taux de conversion",
     "i": 1,
@@ -276,9 +291,9 @@
     "i": 1,
     "t": "div"
   },
-  "5dffe7a0e3f5c6c4": "Renouvelé",
+  "5dffe7a0e3f5c6c4": "a renouvelé son abonnement",
   "600433e7972a7e75": "Facturation",
-  "64c3e0dc218708d9": "Tableau de bord SaaS multipage avec formatage des données adapté à la langue et prise en charge RTL.",
+  "64c3e0dc218708d9": "Un tableau de bord SaaS multi‑pages avec formatage des données selon la locale et prise en charge du RTL.",
   "657421864c62a8aa": [
     {
       "c": {
@@ -445,10 +460,10 @@
     "i": 1,
     "t": "p"
   },
-  "9bfad5921f99da8d": "est passé à une offre inférieure",
+  "9bfad5921f99da8d": "est passé à",
   "9c8b93dd80cb9dd2": [
     {
-      "c": "Enterprise",
+      "c": "Entreprise",
       "i": 1,
       "t": "p"
     },

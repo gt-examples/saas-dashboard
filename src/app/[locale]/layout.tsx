@@ -4,6 +4,7 @@ import { GTProvider } from "gt-next";
 import { getLocaleDirection , getGT } from "gt-next/server";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import ExampleBanner from "@/components/ExampleBanner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -67,6 +68,7 @@ export default async function RootLayout({
         <GTProvider>
           <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
             <Navbar />
+            <ExampleBanner />
             <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6 sm:py-10">{children}</main>
           </div>
         </GTProvider>

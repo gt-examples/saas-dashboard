@@ -59,7 +59,7 @@
             "t": "div"
           },
           {
-            "c": "Actualización",
+            "c": "Actualizar",
             "i": 12,
             "t": "button"
           }
@@ -94,6 +94,21 @@
   },
   "29f0824614831f53": "Descripción general",
   "2d8c0219a2bad80b": "Reembolsado",
+  "2f18466914eb64c9": [
+    "Esta es una aplicación de ejemplo creada con ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    ". Ver el ",
+    {
+      "c": "código fuente en GitHub",
+      "i": 2,
+      "t": "a"
+    },
+    "."
+  ],
   "320627166d073ffb": {
     "c": "Tasa de conversión",
     "i": 1,
@@ -201,7 +216,7 @@
   "4e6df103a6fac6a9": [
     {
       "c": {
-        "c": "Plan actual",
+        "c": "Plan Actual",
         "i": 2,
         "t": "h3"
       },
@@ -224,7 +239,7 @@
                   "k": "_gt_cost_7",
                   "v": "c"
                 },
-                " al mes"
+                " por mes"
               ],
               "i": 6,
               "t": "span"
@@ -256,7 +271,7 @@
     "t": "p"
   },
   "578354a8606964a2": {
-    "c": "Usuarios Activos",
+    "c": "Usuarios activos",
     "i": 1,
     "t": "p"
   },
@@ -278,11 +293,11 @@
   },
   "5dffe7a0e3f5c6c4": "renovó",
   "600433e7972a7e75": "Facturación",
-  "64c3e0dc218708d9": "Un panel de control SaaS de varias páginas con datos formateados según la configuración regional y compatibilidad con RTL.",
+  "64c3e0dc218708d9": "Un panel de control de SaaS de varias páginas con datos formateados según la configuración regional y compatibilidad con RTL.",
   "657421864c62a8aa": [
     {
       "c": {
-        "c": "Información del perfil",
+        "c": "Información de perfil",
         "i": 2,
         "t": "h3"
       },
@@ -445,10 +460,10 @@
     "i": 1,
     "t": "p"
   },
-  "9bfad5921f99da8d": "cambió a un plan inferior",
+  "9bfad5921f99da8d": "cambió a",
   "9c8b93dd80cb9dd2": [
     {
-      "c": "Enterprise",
+      "c": "Empresarial",
       "i": 1,
       "t": "p"
     },
@@ -574,13 +589,13 @@
       "t": "p"
     },
     {
-      "c": "Cambiar a este plan",
+      "c": "Cambiar a Este Plan",
       "i": 4,
       "t": "button"
     }
   ],
-  "d745469b3f135b7c": "actualizó al plan",
-  "d79fef6375e63c9a": "Panel de control SaaS | Traducción general",
+  "d745469b3f135b7c": "actualizó a",
+  "d79fef6375e63c9a": "Panel de control de SaaS | Traducción general",
   "d7c656d3a4689e66": {
     "c": [
       {
@@ -755,7 +770,7 @@
       "t": "p"
     },
     {
-      "c": "Plan actual",
+      "c": "Plan Actual",
       "i": 6,
       "t": "button"
     }
